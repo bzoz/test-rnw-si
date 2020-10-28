@@ -147,6 +147,11 @@
       <DeploymentContent>false</DeploymentContent>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\node_modules\react-native-sensitive-info\windows\RNSensitiveInfoCPP\RNSensitiveInfoCPP.vcxproj">
+      <Project>{471024f1-cd6d-4f1e-a6c7-0037152c850e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup Label="ReactNativeWindowsNodeProps">
     <ReactNativeWindowsDir Condition="'$(ReactNativeWindowsDir)' == ''">$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), 'node_modules\react-native-windows\package.json'))\node_modules\react-native-windows\</ReactNativeWindowsDir>
