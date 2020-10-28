@@ -13,6 +13,7 @@
   "dependencies": {
     "react": "16.11.0",
     "react-native": "^0.62.0-0",
+    "react-native-sensitive-info": "file:../react-native-sensitive-info-cppwinrt-windows",
     "react-native-windows": "^0.62.0-0"
   },
   "devDependencies": {
